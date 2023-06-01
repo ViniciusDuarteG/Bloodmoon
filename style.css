@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #fff;
+    margin: -10px 0px 0px -10px;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+}
+
+nav{
+    text-align: right;
+    text-decoration: none;
+    color: white;
+    vertical-align: top;
+    margin-left:50px;
+    margin-right: 50px;
+    display: flex;
+    padding-left: 10px;
+}
+#nome{
+    padding-left: 6%;
+}
+.home{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    text-align: left;
+    
+}
+
+.home:hover{
+    background-color: white;
+    color: #000;
+
+}
+
+main{
+    background-color: white;
+}
+
+.conteudo{
+    margin: 0% 10% 0% 10%;
+}
+
+h1{
+    padding: 0% 0% 0% 10%;
+}
+
+h2{
+    padding-left: 30px;
+}
+
+.projetos{
+    display: flex;
+}
+
+.logojogo {
+    display: flex;
+    align-items: center;
+    width: 192px;
+    height: 192px;
+    margin: 30px;
+    float: left;
+    box-sizing: border-box;
+    padding: 3px;
+    border-radius: 50px;
+  }
+  
+  #slow-transition {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    transition: box-shadow 500ms;
+  }
+  
+  #slow-transition:hover {
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 2);
+  }
+  
+  #fast-transition {
+    position: relative;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  #fast-transition::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 50px;
+    box-shadow: 0 10px 50px 0px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 500ms;
+  }
+  
+  #fast-transition:hover::before {
+    opacity: 1;
+  }
+
+
+.linkJogos{
+    color: #000;
+    text-decoration: none;
+}
+h4{
+    padding-left: 17%;
+}
+
+.descricao{
+    padding-left: 06%;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    padding: 2% 0% 5% 0%;
+    bottom: 0;
+    background-color: black;
+    text-align: center;
+    color: #fff;
+}
+
+.linksdiretos{
+    text-decoration: none;
+    color: #fff;
+    padding: 1%;
+}
